@@ -1,0 +1,14 @@
+Host AOS-project1
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile C:/MyAOSdir/project1-master/.vagrant/machines/default/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host github.com
+  Hostname ssh.github.com
+  Port 443
